@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubhi Nigam</title>
+    <meta name="description" content="Product leader passionate about taking products from zero to one. Currently at Carta.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.7;
+            color: #1a1a1a;
+            background: #fafafa;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 640px;
+            margin: 0 auto;
+            padding: 80px 24px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            letter-spacing: -0.02em;
+        }
+
+        .tagline {
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+
+        .bio {
+            font-size: 1.05rem;
+            color: #333;
+            margin-bottom: 24px;
+        }
+
+        .bio p {
+            margin-bottom: 20px;
+        }
+
+        .highlights {
+            color: #555;
+            font-size: 0.95rem;
+            margin-bottom: 40px;
+            padding-left: 0;
+        }
+
+        .highlights li {
+            list-style: none;
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .highlights li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #999;
+        }
+
+        .highlights a {
+            color: #333;
+            text-decoration: none;
+            border-bottom: 1px solid #ccc;
+            transition: border-color 0.2s;
+        }
+
+        .highlights a:hover {
+            border-color: #333;
+        }
+
+        .links {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+
+        .links a {
+            color: #1a1a1a;
+            text-decoration: none;
+            font-size: 0.95rem;
+            padding-bottom: 2px;
+            border-bottom: 1px solid #ccc;
+            transition: border-color 0.2s;
+        }
+
+        .links a:hover {
+            border-color: #1a1a1a;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 48px 20px;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            .links {
+                gap: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <h1>Shubhi Nigam</h1>
+        <p class="tagline">Product Leader · San Francisco</p>
+
+        <div class="bio">
+            <p>I'm a product leader at Carta, passionate about taking products from zero to one. Previously, I was a cofounder at Laso Technologies (YC W19), where we launched two search-based tools built on LLMs.</p>
+            <p>I enjoy building products for users in complex industries like financial services and healthcare. I'm particularly drawn to early-stage customer acquisition and continuous user discovery.</p>
+        </div>
+
+        <ul class="highlights">
+            <li>Featured in <a href="https://www.forbes.com/sites/forbestechcouncil/2022/10/05/the-future-of-ai-is-creative-how-it-will-empower-the-next-set-of-entrepreneurs/" target="_blank" rel="noopener">Forbes</a>, <a href="https://techcrunch.com/2021/02/10/insight-launches-a-customizable-ios-browser-with-support-for-extensions/" target="_blank" rel="noopener">TechCrunch</a>, <a href="https://www.mindtheproduct.com/to-pivot-or-to-not-a-guide-to-executing-a-product-pivot/" target="_blank" rel="noopener">Mind the Product</a></li>
+            <li>Mentor at TechStars, Founders Institute, AWS Impact Accelerator</li>
+            <li>Computer Science & Economics, University of Pennsylvania</li>
+        </ul>
+
+        <div class="links">
+            <a href="https://www.linkedin.com/in/shubhi-nigam/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="mailto:shubhi.nigam@gmail.com">Email</a>
+        </div>
+    </main>
+</body>
+</html>
